@@ -7,6 +7,7 @@ interface Bird {
     loc: string;
     rec: string;
     osci: any;
+    file: string;
 }
 
 const BirdsList: React.FC = () => {
@@ -35,6 +36,11 @@ const BirdsList: React.FC = () => {
                         <IonImg src={bird.osci.small} alt={`Ave ${bird.gen}`} />
                     </IonThumbnail>
                     <IonLabel>
+                        <div>
+                            <audio controls>
+                                <source src={bird.file} type='audio/mpeg'/>
+                            </audio>
+                        </div>
                         <h2>Familia: {bird.gen}</h2>
                         <p>Nombre: {bird.sp}</p>
                         <p>Ubicación: {bird.loc}</p>
