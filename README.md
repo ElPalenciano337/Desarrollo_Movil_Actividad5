@@ -10,10 +10,10 @@ Este proyecto permite a los usuarios consultar información sobre diferentes esp
 Antes de compilar y ejecutar el proyecto, asegúrate de tener instalados los siguientes componentes:
 - **Node.js**: Versión 14 o superior. [Descargar Node.js](https://nodejs.org/)
 - **Ionic CLI**: Para trabajar con proyectos Ionic.
-  ```
+  ```bash
   npm install -g @ionic/cli
 
-## Pasos a realizar para ejecutar el proyecto en tu máquina local:
+# Pasos a realizar para ejecutar el proyecto en tu máquina local:
 ## Clona el repositorio con el siguiente comando:
 git clone https://github.com/tu-usuario/aves-de-guatemala.git
 
@@ -28,3 +28,7 @@ Desde una terminal ya sea local del sistema o desde VSC ingresa el siguiente com
 ionic serve
 
 Y ¡listo! Puedes cargar la información y navegar entre distintos tipos de aves de Guatemala.-
+
+# Contacto
+Brandon Steve Palencia Hernandez - 22011436
+brandonsteve11@gmail.com
